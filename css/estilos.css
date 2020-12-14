@@ -1,0 +1,126 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--dark-cyan);
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.card-header {
+  width: 100%;
+  display: block;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #99999982;
+}
+
+.card-body-img {
+  margin-top: -10.5rem;
+  border: 5px solid white;
+  border-radius: 50%;
+  background-color: white;
+  width: 200px;
+}
+
+.card-body-title {
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  color: var(--very-dark-desaturated);
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+
+.card-body-title span {
+  font-weight: 400;
+  color: var(--dark-gray);
+  margin-left: 0.5rem;
+}
+
+.card-body-text {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  color: var(--dark-gray);
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 1rem auto;
+}
+
+.card-footer-social {
+  text-align: center;
+}
+
+.card-footer-social h3 {
+  font-size: 1.8rem;
+  color: var(--very-dark-desaturated);
+  margin-bottom: .5rem;
+}
+
+.card-footer-social p {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--dark-gray);
+  margin-top: 0;
+}
+/*# sourceMappingURL=estilos.css.map */
