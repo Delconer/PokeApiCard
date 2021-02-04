@@ -2,6 +2,8 @@
 
 Card inspirada en un [reto](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ "reto") de Fronted Mentor.
 
+![](https://raw.githubusercontent.com/Delconer/PokeApiCard/main/images/PokeApi.png)
+
 Fue realizada siguiendo tutoriales de youtube, como parte del proceso de aprendizaje de los lenguajes utilizados.
 
 ## Como funciona
