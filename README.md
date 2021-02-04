@@ -1,6 +1,6 @@
 # Poke Api Card
 
-Card inspirada en un [reto](http://https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ "reto") de Fronted Mentor.
+Card inspirada en un [reto](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ "reto") de Fronted Mentor.
 
 Fue realizada siguiendo tutoriales de youtube, como parte del proceso de aprendizaje de los lenguajes utilizados.
 
@@ -17,4 +17,4 @@ Realiza una consulta a una entrada aleatoria de la API publica de PokeAPI y pint
 
  ## Demostración
  
- La aplicación se encuentra desplegada en Netlify y se puede visitar [Aquí](http://https://card-pokeapi-delconer.netlify.app/ "Aquí")
+ La aplicación se encuentra desplegada en Netlify y se puede visitar [Aquí](https://card-pokeapi-delconer.netlify.app/ "Aquí")
